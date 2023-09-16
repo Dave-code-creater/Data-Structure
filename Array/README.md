@@ -61,43 +61,43 @@ shell
 
 ## Functions
 
-int Length_Of_Array(void)
+- int Length_Of_Array(void)
     This function prompts the user to input the desired length of an array.
     It validates the input to ensure it's a positive integer.
     Returns the length of the array.
 
-int* Create_Array(int Length)
+- int* Create_Array(int Length)
     Allocates dynamic memory for an integer array of the specified length.
     Reads integer values from the user for each element in the array.
     Returns a pointer to the created array.
 
-void Read_Array(int* Array, int Length)
+- void Read_Array(int* Array, int Length)
     Prints the elements of the provided integer array.
 
-void Read_Inverse_Array(int* Array, int Length)
+- void Read_Inverse_Array(int* Array, int Length)
     Prints the elements of the provided integer array in reverse order.
 
-int Sum_Of_All_Element(int* Array, int Length)
+- int Sum_Of_All_Element(int* Array, int Length)
     Calculates and returns the sum of all elements in the provided integer array.
 
-int* Copy_Array(int* Array, int Length)
+- int* Copy_Array(int* Array, int Length)
     Creates a new integer array and copies the elements from the provided array into it.
         Returns a pointer to the new array.
 
-bool Contains_Duplicate_Element(int* Array, int Length)
+- bool Contains_Duplicate_Element(int* Array, int Length)
     Checks if the provided integer array contains any duplicate elements.
     Returns true if duplicates are found, otherwise false.
 
-int* Get_Concatenation(int* Array, int Length)
+- int* Get_Concatenation(int* Array, int Length)
     Creates a new integer array that is twice the length of the provided array.
     Copies the elements from the provided array into the new array twice.
     Returns a pointer to the new array.
 
-int* Create_Array_3X3_Size(void)
+- int* Create_Array_3X3_Size(void)
     Creates a 3x3 integer array and allows the user to input values for each element.
     Returns a pointer to the created 3x3 array.
 
-void Print_3x3_Size(int* Array)
+- void Print_3x3_Size(int* Array)
     Prints the values of a 3x3 integer array, assuming it is passed as a 1D array. Note that this function may not work as expected because a 2D array is being treated as a 1D array.
 
 ## Adnaced Usage
@@ -153,3 +153,4 @@ int main()
 ```
 
 
+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
